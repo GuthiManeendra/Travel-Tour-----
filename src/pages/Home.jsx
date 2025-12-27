@@ -10,7 +10,9 @@ import experienceImg from "../assets/images/experience.png";
 
 import SearhBar from "../shared/SearchBar";
 import ServiceList from "../services/ServiceList";
-
+import FeaturedTourList from "../Components/Featured-tours/FeaturedTourList";
+// import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGallery";
+// import Testimonials from "../components/Testimonial/Testimonials";
 import Newsletter from "../shared/Newsletter";
 
 const Home = () => {
@@ -102,7 +104,7 @@ const Home = () => {
               <h5 className="services__subtitle">Explore</h5>
               <h2 className="featured__tour-title">Our featured tours</h2>
             </Col>
-            {/* <FeaturedTourList /> */}
+            <FeaturedTourList />
           </Row>
         </Container>
       </section>
