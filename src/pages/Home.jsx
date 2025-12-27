@@ -11,8 +11,8 @@ import experienceImg from "../assets/images/experience.png";
 import SearhBar from "../shared/SearchBar";
 import ServiceList from "../services/ServiceList";
 import FeaturedTourList from "../Components/Featured-tours/FeaturedTourList";
-// import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGallery";
-// import Testimonials from "../components/Testimonial/Testimonials";
+import MasonryImagesGallery from "../Components/Image-gallery/MasonryImagesGallery";
+
 import Newsletter from "../shared/Newsletter";
 
 const Home = () => {
@@ -152,6 +152,7 @@ const Home = () => {
       </section>
 
       {/* ================= GALLERY SECTION ================= */}
+      <br /><br /><br /><br /><br />
       <section>
         <Container>
           <Row>
@@ -162,7 +163,7 @@ const Home = () => {
               </h2>
             </Col>
             <Col lg="12">
-              {/* <MasonryImagesGallery /> */}
+              <MasonryImagesGallery />
             </Col>
           </Row>
         </Container>
@@ -179,7 +180,7 @@ const Home = () => {
               </h2>
             </Col>
             <Col lg="12">
-              {/* <Testimonials /> */}
+              
             </Col>
           </Row>
         </Container>
