@@ -14,4 +14,4 @@ const ServicesCard = ({ item }) => {
   );
 };
 
-export default ServicesCard;
+export default ServiceCard;
