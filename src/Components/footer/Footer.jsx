@@ -52,9 +52,9 @@ const Footer = () => {
           <Col lg="3" md="6" className="footer_col">
             <h5>Contact</h5>
             <ul className="contact_list">
-              <li><i className="ri-map-pin-line"></i> Shimogga, Karnataka</li>
-              <li><i className="ri-mail-line"></i> adarshaadi1997@gmail.com</li>
-              <li><i className="ri-phone-line"></i> +91 86604 35323</li>
+              <li><i className="ri-map-pin-line"></i> Moosapet, Hyderabad</li>
+              <li><i className="ri-mail-line"></i> Maneendraguthi@gmail.com</li>
+              <li><i className="ri-phone-line"></i> +91 6304054870</li>
             </ul>
           </Col>
 
@@ -62,7 +62,7 @@ const Footer = () => {
 
         <div className="footer_bottom">
           Copyright © 2025, Design and develop by
-          <strong> Adarsha A Helvar</strong>. All rights reserved.
+          <strong> Guthi Maneendra</strong>. All rights reserved.
         </div>
       </Container>
     </footer>

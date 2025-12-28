@@ -12,7 +12,7 @@ import SearhBar from "../shared/SearchBar";
 import ServiceList from "../services/ServiceList";
 import FeaturedTourList from "../Components/Featured-tours/FeaturedTourList";
 import MasonryImagesGallery from "../Components/Image-gallery/MasonryImagesGallery";
-
+import Testimonials from "../Components/testimonial/Testimonials";
 import Newsletter from "../shared/Newsletter";
 
 const Home = () => {
@@ -27,9 +27,9 @@ const Home = () => {
             <Col lg="6">
               <div className="hero__content">
 
-                {/* 🔥 REPLACED SUBTITLE SECTION */}
+                {/* Subtitle */}
                 <div className="hero__subtitle d-flex align-items-center gap-2 mb-3">
-                  <span className="badge know-badge px-4 py-2">
+                  <span className="badge fst-italic px-4 py-2">
                     Know before you go
                   </span>
 
@@ -54,7 +54,6 @@ const Home = () => {
                 </p>
               </div>
             </Col>
-            
 
             <Col lg="2">
               <div className="hero_img-box">
@@ -72,9 +71,9 @@ const Home = () => {
               <div className="hero_img-box mt-5">
                 <img src={heroImg02} alt="Hero 2" />
               </div>
-              <br /><br />
             </Col>
-            <SearhBar/>
+
+            <SearhBar />
           </Row>
         </Container>
       </section>
@@ -86,7 +85,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="3">
-              <h5 className="services__subtitle ">What we serve</h5>
+              <h5 className="services__subtitle">What we serve</h5>
               <h2 className="services__title">We offer our best services</h2>
             </Col>
             <ServiceList />
@@ -108,6 +107,8 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+
+      <br /><br /><br />
 
       {/* ================= EXPERIENCE SECTION ================= */}
       <section>
@@ -151,8 +152,9 @@ const Home = () => {
         </Container>
       </section>
 
+      <br /><br /><br />
+
       {/* ================= GALLERY SECTION ================= */}
-      <br /><br /><br /><br /><br />
       <section>
         <Container>
           <Row>
@@ -169,6 +171,8 @@ const Home = () => {
         </Container>
       </section>
 
+      <br /><br /><br />
+
       {/* ================= TESTIMONIAL SECTION ================= */}
       <section>
         <Container>
@@ -180,7 +184,7 @@ const Home = () => {
               </h2>
             </Col>
             <Col lg="12">
-              
+              <Testimonials />
             </Col>
           </Row>
         </Container>
