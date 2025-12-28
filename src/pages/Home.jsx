@@ -15,6 +15,7 @@ import MasonryImagesGallery from "../Components/Image-gallery/MasonryImagesGalle
 import Testimonials from "../Components/testimonial/Testimonials";
 import Newsletter from "../shared/Newsletter";
 
+
 const Home = () => {
   return (
     <>
@@ -191,6 +192,7 @@ const Home = () => {
       </section>
 
       <Newsletter />
+      
     </>
   );
 };
