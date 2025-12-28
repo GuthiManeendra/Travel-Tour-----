@@ -37,16 +37,16 @@
   font-weight: 100;
 }
 
-.know-badge {
-  background-color: #f9a826;
-  color: #000;
-  font-family: "Pacifico", cursive;
-  font-size: 2.0rem;
-  border-radius: 50px;
-  letter-spacing: 0.6px;
-  white-space: nowrap;
-  font-weight: 100;
+.badge {
+  color: balck;
+  font-style: italic;                 /* italic text */
+  font-family: "Poppins", sans-serif; /* modern font */
+  font-weight: lighter;
+  font-size: 1.0rem;
+  letter-spacing: 0.5px;
+  background-color: orange;
 }
+
 
 /* =======================
    HERO IMAGES
