@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "../../pages/Home"
-import FeaturedTourList from "../Featured-tours/FeaturedTourList"
+import Tours from '../../pages/Tours';
 
 
 export const Routers=()=>{
@@ -10,7 +10,7 @@ export const Routers=()=>{
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/home" element={<Home/>}/>
-            <Route path="/feature" element={<FeaturedTourList/> }/>
+            <Route path='/tours' element={<Tours/> } />
              
 
         </Routes>
